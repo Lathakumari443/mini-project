@@ -1,0 +1,28 @@
+.Course-spe {
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-spe {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between elements */
+    gap: 20px; /* Optional: adds space between elements */
+    margin: 50px;
+    
+}
+.speciality {
+    flex: 0.6; /* Distribute space evenly */
+    background-color: gold;
+    text-align: start;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Aligns text to start */
+}
+
+.speciality i {
+    align-self: center; /* Center the icon */
+    font-size: 24px; /* Adjust the icon size if needed */
+    margin-bottom: 10px; /* Add some space below the icon */
+}

@@ -1,0 +1,34 @@
+.container{
+   
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    row-gap: 30px;
+    
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    
+    
+}
+.image-item img{
+    width: 290px;
+    border-radius: 5px;
+    
+}
+
+.ratings .fa {
+    color: #a09f99; /* Set the color for all star icons */
+    
+}
+
+.ratings .checked {
+    color: #FFD700; /* Color for checked stars */
+}
+
+.ratings .fa-star-half-o.checked {
+    color: #e7c412; /* Color for half star */
+}

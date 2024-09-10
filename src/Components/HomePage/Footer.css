@@ -1,0 +1,40 @@
+.footer {
+    background-color: #f1f1f1; /* Adjust background color as needed */
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between logo and navbar */
+}
+
+.logo {
+    width: 100px; /* Adjust size as needed */
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Space between nav items */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #c9c2c2; /* Adjust color as needed */
+    font-weight: bold; /* Adjust style as needed */
+}
+
+.nav-item a:hover {
+    text-decoration: underline; /* Add hover effect if needed */
+}
